@@ -1,4 +1,13 @@
 apply plugin: 'com.android.library'
+ext {
+
+    PUBLISH_GROUP_ID = 'com.restapi'
+
+    PUBLISH_ARTIFACT_ID = 'restapi2'
+
+    PUBLISH_VERSION = '0.0.1'
+
+}
 
 android {
     compileSdkVersion 25
